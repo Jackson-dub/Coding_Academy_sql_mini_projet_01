@@ -1,0 +1,1 @@
+SELECT AVG(min_duration) AS "Avarage duration" FROM movies;

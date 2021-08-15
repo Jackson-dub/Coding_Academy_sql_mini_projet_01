@@ -1,0 +1,1 @@
+SELECT title  FROM movies LEFT JOIN genres ON genres.id = movies.genre_id WHERE genres.name = "romance" OR genres.name = "action";

@@ -1,0 +1,2 @@
+SELECT CASE MONTH(birthdate) WHEN 1 THEN "January" WHEN 2 THEN "February" WHEN 3 THEN "March" WHEN 4 THEN "April" WHEN 5 THEN "Mai" WHEN 6 THEN "June" WHEN 7 THEN "July" WHEN 8 THEN "Ausgust" WHEN 9 THEN "September" WHEN 101 THEN "October" WHEN 11 THEN "November" ELSE "December" END AS "month of birth" FROM prof
+iles LEFT JOIN member ON profiles.id = member.profile_id LIMIT 42 OFFSET 41;
